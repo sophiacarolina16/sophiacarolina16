@@ -6,4 +6,4 @@
 ### ♟️ Jogue Xadrez Comigo no Perfil!
 > Clique no tabuleiro abaixo para fazer sua jogada. O jogo é atualizado automaticamente!
 
-[![Xadrez no Perfil](https://github.com/sophiacarolina16/sophiacarolina16/raw/main/board.svg)](https://github.com/SEU-USUARIO/SEU-USUARIO/issues/1)
+[![Xadrez no Perfil](https://github.com/sophiacarolina16/sophiacarolina16/raw/main/board.svg)](https://github.com/sophiacarolina16/sophiacarolina16/issues/1)
