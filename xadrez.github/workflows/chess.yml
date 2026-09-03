@@ -1,8 +1,6 @@
 name: Chess on Profile
 
 on:
-  schedule:
-    - cron: '0 */6 * * *' # Roda a cada 6 horas (ou quando houver interação)
   workflow_dispatch:
   issues:
     types: [opened]
@@ -11,15 +9,7 @@ jobs:
   update-chess:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - uses: actions/checkout@v3
+      - uses: marcizhu/readme-chess@v1.3.0
         with:
-          python-version: '3.10'
-
-      - name: Run chess script
-        run: |
-          # Aqui entraria o script que processa as jogadas das Issues
-          echo "Atualizando tabuleiro..."
+          gh_token: ${{ secrets.GITHUB_TOKEN }}
