@@ -1,0 +1,14 @@
+name: Tic Tac Toe
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  move:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: johannesloetzsch/readme-tic-tac-toe@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
