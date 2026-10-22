@@ -1,7 +1,7 @@
 <div align="center">
 
 
-<img src="(https://i.pinimg.com/originals/88/15/63/881563d6444b370fa4ceea0c3183bb4c.gif)" alt="SophiaBanner" width="100%">
+<img src="https://i.pinimg.com/originals/88/15/63/881563d6444b370fa4ceea0c3183bb4c.gif" alt="SophiaBanner" width="100%">
 
 <br/><br/>
 
